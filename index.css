@@ -1,0 +1,110 @@
+/* index.css */
+
+/* Basic styling for the header */
+header {
+    background-color: #b7cfe6;
+    padding: 10px;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+    border-radius: 20px;
+}
+
+/* Style for the logo */
+.logo {
+    max-width: 200px; /* Adjustable width for the logo */
+    height: auto;
+
+}
+
+/* Style for the navigation */
+nav {
+    margin-left: auto; /* Pushes navigation to the right */
+}
+
+nav a {
+    padding: 8px 12px; /* Adjust padding around links */
+    text-decoration: none;
+    color: #333;
+    font-size: 20px; /* Adjust the font size */
+}
+
+nav a:hover {
+    color: #000;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+/* index.css */
+
+.services {
+    display: flex;
+    justify-content: space-around; /* Space the elements evenly */
+    margin-top: 30px;
+}
+
+.service {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s; /* Smooth transition for the background color change */
+}
+
+/* Different background colors for different services */
+#service1 {
+    background-color: #3c91e2; 
+}
+
+#service2 {
+    background-color: #90c8da; 
+}
+
+#service3 {
+    background-color: #3c91e2; 
+}
+
+#service4 {
+    background-color: #90c8da; 
+}
+
+.service:hover {
+    filter: brightness(80%);
+    cursor: pointer; /* Change cursor on hover */
+}
+
+footer {
+    background-color: #b7cfe6; /* Same color as the header */
+    padding: 10px;
+    text-align: center; /* Center the content */
+    border-radius: 20px;
+    margin-top: 20px; /* Add space between content and footer */
+    color: #000; /* Text color for better contrast */
+}

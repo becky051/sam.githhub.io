@@ -1,0 +1,81 @@
+/* Basic styling for the header */
+header {
+    background-color: #b7cfe6;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+/* Style for the logo */
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Style for the navigation */
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+/* Content section */
+.content {
+    display: flex;
+}
+
+/* Video container styling */
+.video-container {
+    width: 50%;
+}
+
+.video {
+    width: calc(100% - 40px); /* Adjust the width considering the padding */
+    display: block;
+    padding: 2px;
+    border-radius: 15px;
+    margin-top: 10px; /* Add margin-top to create space between the video and the header */
+}
+
+
+/* Additional information styling */
+.additional-info {
+    width: 50%;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #b7cfe6; /* Same color as the header */
+    padding: 10px;
+    text-align: center; /* Center the content */
+    border-radius: 20px;
+    margin-top: 20px; /* Add space between content and footer */
+    color: #fff; /* Text color for better contrast */
+}

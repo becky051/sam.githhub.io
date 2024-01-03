@@ -1,0 +1,97 @@
+/* contact.css */
+header {
+    background-color: #b7cfe6;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+/* Style for the logo */
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Style for the navigation */
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+/* Styling for the contact form */
+.contact-form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.contact-form h1 {
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form input[type="submit"] {
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #b7cfe6;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #92b5d8;
+}
+
+/* Styling for contact information */
+.contact-info {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #b7cfe6; /* Same color as the header */
+    padding: 10px;
+    text-align: center; /* Center the content */
+    border-radius: 20px;
+    margin-top: 20px; /* Add space between content and footer */
+    color: #000; /* Text color for better contrast */
+}
